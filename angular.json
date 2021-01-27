@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "artTatto"
+    }
+  },
+  "defaultProject": "artTatto",
+  "cli": {
+    "analytics": "230e32a4-e883-4b35-a578-aea02f95a41a"
+  }
 }
